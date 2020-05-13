@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "613063109065",
+    "firebase_url": "https://chat-21dbb.firebaseio.com",
+    "project_id": "chat-21dbb",
+    "storage_bucket": "chat-21dbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613063109065:android:4f52c4031663f18aab6018",
+        "android_client_info": {
+          "package_name": "com.konstload.chatmessanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613063109065-b5h1olghrhb4tg18iu596qqepkssefdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFr7ExvdicVcZrdkGfjlVxdcyLXxniTHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613063109065-b5h1olghrhb4tg18iu596qqepkssefdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

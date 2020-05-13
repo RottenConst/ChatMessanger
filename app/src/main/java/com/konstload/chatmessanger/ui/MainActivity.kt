@@ -1,7 +1,8 @@
-package com.konstload.chatmessanger
+package com.konstload.chatmessanger.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.konstload.chatmessanger.R
 
 class MainActivity : AppCompatActivity() {
 

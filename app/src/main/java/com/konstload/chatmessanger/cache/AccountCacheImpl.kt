@@ -15,7 +15,7 @@ class AccountCacheImpl @Inject constructor(private val prefsManager: SharedPrefs
         return prefsManager.saveToken(token)
     }
 
-    override fun getToken(): Either<Failure, String?> {
+    override fun getToken(): Either<Failure, String> {
         return prefsManager.getToken()
     }
 }

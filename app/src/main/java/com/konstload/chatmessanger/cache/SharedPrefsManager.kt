@@ -23,7 +23,7 @@ class SharedPrefsManager @Inject constructor(private val prefs: SharedPreference
         return Either.Right(None())
     }
 
-    fun getToken(): Either<Failure, String?> {
+    fun getToken(): Either<Failure, String> {
         return Either.Right(prefs.getString(ACCOUNT_TOKEN, ""))
     }
 }

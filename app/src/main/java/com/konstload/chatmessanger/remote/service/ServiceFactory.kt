@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
  * Синглтон для создания API сервиса.
  */
 object ServiceFactory {
-    const val BASE_URL = "http://messangerchat.000webhostapp.com/chat/rest_api/"
+    const val BASE_URL = "https://messangerchat.000webhostapp.com/chat/rest_api/"
 
     fun makeService(isDebug: Boolean): ApiService {
         val okHttpClient = makeOkHttpClient(

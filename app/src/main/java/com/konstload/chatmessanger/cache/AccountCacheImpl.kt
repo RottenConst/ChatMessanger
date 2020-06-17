@@ -3,7 +3,7 @@ package com.konstload.chatmessanger.cache
 import com.konstload.chatmessanger.data.account.AccountCache
 import com.konstload.chatmessanger.domain.type.Either
 import com.konstload.chatmessanger.domain.type.None
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 import javax.inject.Inject
 
 /**

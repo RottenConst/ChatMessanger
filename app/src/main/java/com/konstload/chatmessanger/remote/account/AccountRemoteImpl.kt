@@ -3,7 +3,7 @@ package com.konstload.chatmessanger.remote.account
 import com.konstload.chatmessanger.data.account.AccountRemote
 import com.konstload.chatmessanger.domain.type.Either
 import com.konstload.chatmessanger.domain.type.None
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 import com.konstload.chatmessanger.remote.core.Request
 import com.konstload.chatmessanger.remote.service.ApiService
 import javax.inject.Inject

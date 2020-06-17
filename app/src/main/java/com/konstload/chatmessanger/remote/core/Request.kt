@@ -1,7 +1,7 @@
 package com.konstload.chatmessanger.remote.core
 
 import com.konstload.chatmessanger.domain.type.Either
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 import retrofit2.Call
 import retrofit2.Response
 import javax.inject.Inject

@@ -1,7 +1,6 @@
 package com.konstload.chatmessanger.ui.fragment
 
 import android.os.Bundle
-import android.os.Message
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +9,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.konstload.chatmessanger.R
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 import com.konstload.chatmessanger.ui.activity.BaseActivity
 import com.konstload.chatmessanger.ui.activity.base
 import javax.inject.Inject

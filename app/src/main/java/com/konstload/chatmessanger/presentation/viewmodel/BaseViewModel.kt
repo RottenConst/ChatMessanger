@@ -3,7 +3,7 @@ package com.konstload.chatmessanger.presentation.viewmodel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.konstload.chatmessanger.domain.type.HandleOnce
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 
 /**
  * Базовый класс для выделения поведения всех ViewModel

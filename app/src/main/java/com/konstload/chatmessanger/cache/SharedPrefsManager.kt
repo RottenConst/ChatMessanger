@@ -3,7 +3,7 @@ package com.konstload.chatmessanger.cache
 import android.content.SharedPreferences
 import com.konstload.chatmessanger.domain.type.Either
 import com.konstload.chatmessanger.domain.type.None
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 import javax.inject.Inject
 
 /**

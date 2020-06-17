@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Context
 import android.os.Bundle
 import android.view.View
-import android.view.inputmethod.InputMethod
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -14,8 +13,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.konstload.chatmessanger.R
-import com.konstload.chatmessanger.domain.type.exception.Failure
-import com.konstload.chatmessanger.presentation.viewmodel.ViewModelFactory
+import com.konstload.chatmessanger.domain.type.Failure
 import com.konstload.chatmessanger.ui.fragment.BaseFragment
 import kotlinx.android.synthetic.main.toolbar.*
 import javax.inject.Inject

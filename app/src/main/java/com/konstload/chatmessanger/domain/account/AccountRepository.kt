@@ -2,7 +2,7 @@ package com.konstload.chatmessanger.domain.account
 
 import com.konstload.chatmessanger.domain.type.Either
 import com.konstload.chatmessanger.domain.type.None
-import com.konstload.chatmessanger.domain.type.exception.Failure
+import com.konstload.chatmessanger.domain.type.Failure
 
 /**
  * Интерфейс, содержащий функции для взаимодействия с аккаунтом.
